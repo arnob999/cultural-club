@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+    background-color: #a5c9cabd;
+    font-family: 'Oswald', sans-serif;
+}
+
+.headnav {
+    color: aliceblue;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+.header {
+    margin-top: 20px;
+}

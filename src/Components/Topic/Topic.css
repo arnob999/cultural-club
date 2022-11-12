@@ -1,0 +1,8 @@
+.topic-container {
+    border: 1px solid grey;
+    width: 250px;
+}
+
+.topic-container img {
+    height: 100px;
+}
