@@ -9,8 +9,14 @@ body {
     color: aliceblue;
     text-decoration: none;
     margin: 0px 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 100px grey;
 }
 
 .header {
-    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    background-color: #a5c9ca56;
 }
