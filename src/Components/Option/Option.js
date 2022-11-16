@@ -1,12 +1,12 @@
 import React from 'react';
-
-const Option = ({ option }) => {
+import './Option.css'
+const Option = ({ option, printkoro }) => {
     // console.log(option)
     return (
-        <div className='col rounded-5 py-3 border border-info'>
+        <div onClick={() => printkoro(`${option}`)} className='option col rounded-5 py-3 border border-info'>
             <p className='m-0'>{option}</p>
         </div>
     );
 };
-
+//  onClick={() => printkoro(`${option}`)}
 export default Option;
